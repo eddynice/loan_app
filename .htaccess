@@ -1,0 +1,5 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^gonetonline\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.gonetonline\.com$
+RewriteRule ^/?$ "https\:\/\/gonetonline\.com\/index\.html" [R=301,L]
